@@ -1,0 +1,61 @@
+.profileLink{
+    color: white;
+    
+    max-width: 18rem;
+    justify-content: center;
+    white-space: nowrap;
+}
+.profilePlatformImg{
+    white-space: nowrap;
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 5rem;
+}
+.profileLink:hover{
+    color: cyan;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid cyan;
+}
+.codingProfileMain{
+    
+    margin: 5rem;
+    font-size: 2rem;
+}
+.codingProfileDesc{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+}
+.codingCards{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.codingPlatformImg{
+    height: 10vw;
+    width: 10vw;
+    object-fit: cover;
+    
+    margin-right: 2rem;
+}
+.codingProfile{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.profileTxt{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}

@@ -1,0 +1,119 @@
+.navbar{
+    background-color: rgb(30, 30, 30);
+    height: 5rem;
+    
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;/* horizontal display of nav items*/
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;/* to always diaplay nav bar when u r even on the bottom of the page*/
+    top: 0;
+    z-index: 3;
+}
+.logo{
+    object-fit: cover;/* to resize/adjust the logo */
+    height: 3rem;
+    border-radius: 50%;
+} 
+.destopMenuListItem{
+    margin: 3rem;
+    cursor: pointer;
+    color: white;
+}
+.desktopMenuImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem ;
+}
+.desktopMenuBtn{
+    background: white;
+    color: cyan;
+    border: none;
+    align-items: center;
+    justify-content: center; 
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+}
+.destopMenuListItem:hover{
+    color: rgb(0, 255, 255);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid cyan;
+}
+.resumeDisplayerList:hover{
+    color: rgb(0, 255, 255);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid cyan;
+}
+.navMenu{
+    position: absolute;
+    top:4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+.ListItem{
+    color:  white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30, 30, 30);
+}
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+    
+}
+.resumeDisplayer{
+    right: 20rem;
+    top: 4.5rem;
+    cursor: pointer;
+    position: absolute;
+}
+.resumeDisplayerList{
+    display: flex;
+    flex-direction: column;
+}
+.navItemResume{
+    display: flex;
+    flex-direction: column;
+}
+.resumeDisplayersmall{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:720px){
+    .mobMenu{
+        display: flex;
+    }
+    .desktopMenu{
+        display: none;
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+}
+.backToHome{
+    display: flex;
+    color: white;
+    margin-right: 12rem;
+    text-align: center;
+}
+.backToHome:hover{
+    color: rgb(0, 255, 255);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid cyan;
+    justify-content: space-between;
+}
+.backToHomeImg{
+    margin-left: 1rem;
+}
+
