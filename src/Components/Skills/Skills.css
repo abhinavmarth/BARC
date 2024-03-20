@@ -29,6 +29,8 @@
 }
 .skillBar{
     display: flex;
+    /* flex-wrap: wrap; */
+    /* overflow:auto; */
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
@@ -46,12 +48,16 @@
         font-weight: 200;
 }
 @media screen and (max-width:480px){
+    .skillBar{
+        flex-wrap: wrap;
+    }
     .skillBarText>p{
         font-size:2vw;
     }
     .skillBarImg{
         height: 2.25rem;
         width: 2.25rem;
+        margin-right: 5 rem;
     }
     .skillBarText>h2{
         font-size: 5vw;

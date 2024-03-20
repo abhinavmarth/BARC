@@ -8,7 +8,6 @@ import Navbar from '../Navbar/Navbar.js';
 const Layout = () => {
   return (
     <div>
-        
         <Outlet/>
         <Footer/>
     </div>

@@ -72,7 +72,7 @@ const Navbar = () => {
 
 
         {/* mobilemenu */}
-        <span className='mobMenu' on onClick={()=>setMenu(!showMenu)}><TbMenuDeep /></span>
+        <span className='mobMenu' on onClick={()=>setMenu(!showMenu)}><TbMenuDeep size={56} /></span>
         <div className='navMenu' style={{display : showMenu?'flex':'none'}}>
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='ListItem' onClick={()=>setMenu(false)}>Home</Link>
             <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500}className='ListItem' >About</Link>

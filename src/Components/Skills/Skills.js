@@ -12,8 +12,8 @@ const Skills = () => {
             <div className='skillBar'>
                 <img src={CP} alt="" className='skillBarImg'/>
                 <div className='skillBarText'>
-                    <h2>COMPETITIVE PROGRAMMING</h2>
-                    <p>I have been actively engaged in competitive programming for the past three years, participating in numerous contests on platforms such as Codeforces, CodeChef, LeetCode, and others, where I have successfully solved over 500 problems, showcasing my dedication and proficiency in algorithmic problem-solving.</p>
+                    <h2 className='skillBarTitle'>COMPETITIVE PROGRAMMING</h2>
+                    <p className='skillBarText'>I have been actively engaged in competitive programming for the past three years, participating in numerous contests on platforms such as Codeforces, CodeChef, LeetCode, and others, where I have successfully solved over 500 problems, showcasing my dedication and proficiency in algorithmic problem-solving.</p>
                 </div>
             </div>
 
