@@ -21,7 +21,6 @@
   "homepage": "https://Phantom-23.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
-    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
