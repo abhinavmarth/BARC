@@ -18,19 +18,12 @@
     "react-scroll": "^1.9.0",
     "web-vitals": "^2.1.4"
   },
-
-  
-  "scripts": {
-    "start": "react-scripts start",
-
-
   "homepage": "https://Phantom-23.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
->>>>>>> 6117b2009fa2e875d3ed29f1bf8a41a5aa3efe53
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
