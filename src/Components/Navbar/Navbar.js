@@ -7,13 +7,7 @@ import { CiChat1 } from "react-icons/ci";
 import './Navbar.css';
 import { TbMenuDeep } from "react-icons/tb";
 import  'react-bootstrap';
-import { RiArrowGoBackFill } from "react-icons/ri";
-import Dropdown from 'react-bootstrap/Dropdown';
 
-import { NavDropdown} from 'react-bootstrap';
-import MenuItem from "@material-ui/core/MenuItem";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Coding from '../Coding/Coding';
 
 const Navbar = () => {
  console.log(Logo);
