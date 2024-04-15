@@ -2,8 +2,8 @@
     background-color: rgb(30, 30, 30);
     height: 5rem;
     
-    max-width: 75rem;
-    margin: 0 auto;
+    /* max-width: 75rem; */
+    /* margin: 0 auto; */
     padding: 1rem 2rem;
     display: flex;/* horizontal display of nav items*/
     align-items: center;

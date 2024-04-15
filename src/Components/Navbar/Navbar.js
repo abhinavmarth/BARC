@@ -25,8 +25,8 @@ const Navbar = () => {
             
            
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='destopMenuListItem'>Home</Link>
-            <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500}className='destopMenuListItem'>
-            About</Link>
+            {/* <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500}className='destopMenuListItem'>
+            Browse Jobs</Link> */}
              
             {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-100}
             on onClick={()=>setResume(!showResume)} duration={500}className='destopMenuListItem'>Resume
@@ -36,10 +36,10 @@ const Navbar = () => {
 
           
             
-              <Jump className='destopMenuListItem' to="/resume" onClick={()=>viewResume(!Resume)} >Resume</Jump>
+              <Jump className='destopMenuListItem' to="/resume" onClick={()=>viewResume(!Resume)} >Browseinternship</Jump>
           
 
-            <Jump className='destopMenuListItem' to="/code" onClick={()=>setcode(!navcode)}>Coding</Jump>
+            {/* <Jump className='destopMenuListItem' to="/code" onClick={()=>setcode(!navcode)}>post Jobs</Jump> */}
             
 
 
@@ -47,7 +47,7 @@ const Navbar = () => {
               document.getElementById('contact').scrollIntoView({behavior:'smooth'});
             }}>
             <span className='desktopMenuImg'><CiChat1/></span>
-                Contact Me
+                contact Us
             </button>
         </div>
 
